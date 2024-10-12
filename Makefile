@@ -1,5 +1,5 @@
 run: 
-	./bash/run
+	./sh/run
 
 build:
 	mvn clean package

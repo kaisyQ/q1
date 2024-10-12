@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: ./docker/app/Dockerfile
+      dockerfile: ./docker/app/dev/Dockerfile
     environment:
       - APP_ENV=local
     ports:
